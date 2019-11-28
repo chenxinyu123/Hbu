@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_touxiang"
+    android:background="@drawable/bg_touxiang"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:padding="6dp"
+        android:id="@+id/iv_touxiang"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/head" />
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="@dimen/space_s"
+        android:layout_toEndOf="@+id/iv_touxiang"
+        android:text="@string/myname"
+        android:textColor="@color/black_42"
+        android:textSize="@dimen/txt_l" />
+
+    <TextView
+        android:id="@+id/tv_stuid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_username"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="@dimen/space_s"
+        android:layout_toEndOf="@+id/iv_touxiang"
+        android:text="@string/studentid"
+        android:textColor="@color/black_42"
+        android:textSize="@dimen/txt_m" />
+
+    <TextView
+        android:id="@+id/tv_studentid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="48dp"
+        android:layout_toEndOf="@+id/tv_stuid"
+        android:text="@string/_20161101089"
+        android:textColor="@color/black_42"
+        android:textSize="@dimen/txt_m" />
+</RelativeLayout>

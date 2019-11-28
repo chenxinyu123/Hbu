@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">CxySine</string>
+    <string name="sina">新浪</string>
+    <string name="SubTitle">weibo</string>
+    <string name="lbl_home">首页</string>
+    <string name="lbl_message">信息</string>
+    <string name="lbl_profile">我的</string>
+    <string name="action_one">one</string>
+    <string name="action_two">two</string>
+    <string name="more">更多</string>
+    <string name="logup">退出登录</string>
+    <string name="myname">陈新宇qwq</string>
+    <string name="studentid">StudentId:</string>
+    <string name="_20161101089">20161101089</string>
+    <string name="calculator">计算器</string>
+    <string name="input">Input</string>
+    <string name="edit">Edit</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="ddd">*</string>
+    <string name="g">/</string>
+    <string name="_3">3</string>
+    <string name="_2">2</string>
+    <string name="_1">1</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="jian">-</string>
+    <string name="_0">0</string>
+    <string name="dian">.</string>
+    <string name="jia">+</string>
+    <string name="deng">=</string>
+    <string name="clear">CLEAR</string>
+</resources>
